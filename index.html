@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/element.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="element">
+            <form class="js-form">
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend"><img class="cLogo"
+                            src=https://pixsector.com/cache/1549118e/av70a149d5d0f534e7ab0.png>Currency-converter
+                    </legend>
+                    <p>
+                        <label>
+                            <span class="form__labelText">Your Amount PLN</span>
+                            <input placeholder="PLN" class="js-amount" name="value" type="number" min="0">
+                        </label>
+                    </p>
+                    <label>
+                        <span class="form__labelText">Choose your Currency</span>
+                        <select name="form__currencyList" class="js-currency">
+                            <option value="USD">Dollar - $</option>
+                            <option value="EUR" selected>Euro - €</option>
+                            <option value="GBP">Pound Sterling - £</option>
+                            <option value="JPY">Yen F - ¥</option>
+                            <option value="CHF">Franc - ₣</option>
+                            <option value="INR">Rupee - ₹</option>
+                            <option value="TND">Dinar - د. ك</option>
+                        </select>
+                    </label>
+                    </p>
+                    <p>
+                        <button class="form__button">Calculate</button>
+                        <button type="reset" class="form__buttonReset js-reset">Clear</button>
+                    </p>
+                    <p>
+                        Amount: <strong class="form__result js-result">0.00</strong>
+                    </p>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

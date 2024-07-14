@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(61, 60, 60);
+    color: white;
+}
+
+.cLogo {
+    width: 50px;
+    display: flex;
+}
+
+.form__fieldset {
+    border: 3px solid gold;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.form__legend {
+    background-color: goldenrod;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: inherit;
+
+}
+.form__labelText {
+    width: 100%;
+    max-width: 150px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.form__button {
+    width: 40%;
+    border: none;
+    background-color: goldenrod;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: center;
+}
+
+.form__button:hover {
+    background-color: hsl(43, 74%, 45%);
+}
+
+.form__button:active {
+    background-color: hsl(43, 74%, 49%);
+}
