@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(61, 60, 60);
+    background-image: url("image/backgroundCurrency.png");
+    background-repeat: repeat;
+    color: white;
+}
+
+.cLogo {
+    width: 50px;
+    display: flex;
+}

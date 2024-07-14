@@ -6,25 +6,6 @@ html {
     box-sizing: inherit;
 }
 
-.container {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-body {
-    font-family: 'Nunito', sans-serif;
-    background-color: rgb(61, 60, 60);
-    background-image: url("image/backgroundCurrency.png");
-    background-repeat: repeat;
-    color: white;
-}
-
-.cLogo {
-    width: 50px;
-    display: flex;
-}
-
 .form__fieldset {
     border: 3px solid gold;
     padding: 20px;
