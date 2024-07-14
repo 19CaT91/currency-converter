@@ -5,7 +5,10 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;
 }
-
+.form_cLogo {
+    width: 50px;
+    display: flex;
+}
 .form__fieldset {
     border: 3px solid gold;
     padding: 20px;
