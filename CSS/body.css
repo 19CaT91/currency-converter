@@ -12,4 +12,5 @@ body {
     background-image: url("image/backgroundCurrency.png");
     background-repeat: repeat;
     color: white;
+    object-fit: cover;
 }
